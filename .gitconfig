@@ -1,0 +1,7 @@
+[user]
+	email = joseph@falconite.io
+	name = Joseph
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
