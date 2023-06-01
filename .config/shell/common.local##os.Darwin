@@ -1,0 +1,6 @@
+# vim: set ft=sh sw=2 et :
+
+##
+## Make
+##
+export MAKEFLAGS="-j $(sysctl -n hw.ncpu)"

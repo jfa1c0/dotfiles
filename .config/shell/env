@@ -1,0 +1,21 @@
+# vim: set ft=sh sw=2 et :
+
+
+# Editors
+
+export EDITOR=vi
+export GIT_EDITOR="$EDITOR"
+export USE_EDITOR="$EDITOR"
+export VISUAL=$EDITOR
+export PAGER=less
+
+
+# PAGER
+
+export PAGER='-iFMRSX -x4'
+
+if [ -f "$XDG_CONFIG_HOME/shell/env.local" ]; then
+  . "$XDG_CONFIG_HOME/shell/env.local"
+fi
+
+umask 022
